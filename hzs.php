@@ -1,5 +1,8 @@
 <?php
 
+require_once "flight/flight/Flight.php";
+require_once "sparrow/sparrow.php";
+
 class Hzs
 {
 

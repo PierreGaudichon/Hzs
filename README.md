@@ -8,12 +8,10 @@ Hzs
 Installation
 -------------
 
-To install **Hzs**, you have just to require the `hzs.php` fila and the dependecies. Just launch the `dependencies` file to download them.
+To install **Hzs**, you have just to require the `hzs.php` file. Just launch the `dependencies` file to download the dependencies.
 
-Flight as some special [installations instruction](http://flightphp.com/install), follow them.
+Flight needs as some special [installations instruction](http://flightphp.com/install), follow them, or juste copy-paste the `.htaccess` from the `example/` folder.
 
-    require_once "path/to/Flight.php";
-    require_once "path/to/sparrow.php";
     require_once "path/to/hzs.php";
 
 
