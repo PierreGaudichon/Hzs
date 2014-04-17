@@ -1,4 +1,4 @@
 #! /bin/bash
 
-git clone https://github.com/mikecao/flight.git
-git clone https://github.com/mikecao/sparrow.git
+git clone https://github.com/mikecao/flight.git "$(dirname $0)/flight"
+git clone https://github.com/mikecao/sparrow.git "$(dirname $0)/sparrow"
