@@ -38,7 +38,7 @@ class Hzs
 
 			$data = array();
 			$error = false;
-			foreach ($post as $var) {
+			foreach ($post as $var => $type) {
 				if(isset($_POST[$var])){
 					$data[$var] = $_POST[$var];
 				}
